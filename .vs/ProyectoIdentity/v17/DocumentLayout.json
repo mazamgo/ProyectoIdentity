@@ -1,0 +1,90 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\ProyectoIdentity\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{383DB6F7-2801-406F-BE85-927B0E4D66D7}|ProyectoIdentity\\ProyectoIdentity.csproj|c:\\users\\user\\source\\repos\\proyectoidentity\\proyectoidentity\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{383DB6F7-2801-406F-BE85-927B0E4D66D7}|ProyectoIdentity\\ProyectoIdentity.csproj|solutionrelative:proyectoidentity\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{383DB6F7-2801-406F-BE85-927B0E4D66D7}|ProyectoIdentity\\ProyectoIdentity.csproj|c:\\users\\user\\source\\repos\\proyectoidentity\\proyectoidentity\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{383DB6F7-2801-406F-BE85-927B0E4D66D7}|ProyectoIdentity\\ProyectoIdentity.csproj|solutionrelative:proyectoidentity\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{383DB6F7-2801-406F-BE85-927B0E4D66D7}|ProyectoIdentity\\ProyectoIdentity.csproj|c:\\users\\user\\source\\repos\\proyectoidentity\\proyectoidentity\\datos\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{383DB6F7-2801-406F-BE85-927B0E4D66D7}|ProyectoIdentity\\ProyectoIdentity.csproj|solutionrelative:proyectoidentity\\datos\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{383DB6F7-2801-406F-BE85-927B0E4D66D7}|ProyectoIdentity\\ProyectoIdentity.csproj|c:\\users\\user\\source\\repos\\proyectoidentity\\proyectoidentity\\migrations\\20240418171008_createbdsqlserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{383DB6F7-2801-406F-BE85-927B0E4D66D7}|ProyectoIdentity\\ProyectoIdentity.csproj|solutionrelative:proyectoidentity\\migrations\\20240418171008_createbdsqlserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20240418171008_CreateBDSQLServer.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ProyectoIdentity\\ProyectoIdentity\\Migrations\\20240418171008_CreateBDSQLServer.cs",
+              "RelativeDocumentMoniker": "ProyectoIdentity\\Migrations\\20240418171008_CreateBDSQLServer.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ProyectoIdentity\\ProyectoIdentity\\Migrations\\20240418171008_CreateBDSQLServer.cs",
+              "RelativeToolTip": "ProyectoIdentity\\Migrations\\20240418171008_CreateBDSQLServer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T17:10:08.409Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ProyectoIdentity\\ProyectoIdentity\\Program.cs",
+              "RelativeDocumentMoniker": "ProyectoIdentity\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ProyectoIdentity\\ProyectoIdentity\\Program.cs",
+              "RelativeToolTip": "ProyectoIdentity\\Program.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T16:36:49.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ProyectoIdentity\\ProyectoIdentity\\appsettings.json",
+              "RelativeDocumentMoniker": "ProyectoIdentity\\appsettings.json",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ProyectoIdentity\\ProyectoIdentity\\appsettings.json",
+              "RelativeToolTip": "ProyectoIdentity\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-18T16:29:36.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ProyectoIdentity\\ProyectoIdentity\\Datos\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "ProyectoIdentity\\Datos\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ProyectoIdentity\\ProyectoIdentity\\Datos\\ApplicationDbContext.cs",
+              "RelativeToolTip": "ProyectoIdentity\\Datos\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T16:15:54Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
