@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\User\\source\\repos\\ProyectoIdentity\\ProyectoIdentity\\wwwroot\\imagenes\\x-office-calendar-icon.png",
+      "PackagePath": "staticwebassets\\imagenes\\x-office-calendar-icon.png"
+    },
+    {
       "Id": "C:\\Users\\User\\source\\repos\\ProyectoIdentity\\ProyectoIdentity\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

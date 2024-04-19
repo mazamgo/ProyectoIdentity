@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "zmt32Ijh+TpvT0HgLOtHc7npEOHrSoj0TtENU+/E1oU=",
+  "Hash": "39vr5gRFxW4h1CsMeZto60Mvf77GR2aks/bRuZKEWLk=",
   "Source": "ProyectoIdentity",
   "BasePath": "_content/ProyectoIdentity",
   "Mode": "Default",
@@ -91,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\User\\source\\repos\\ProyectoIdentity\\ProyectoIdentity\\wwwroot\\imagenes\\x-office-calendar-icon.png",
+      "SourceId": "ProyectoIdentity",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\ProyectoIdentity\\ProyectoIdentity\\wwwroot\\",
+      "BasePath": "_content/ProyectoIdentity",
+      "RelativePath": "imagenes/x-office-calendar-icon.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagenes\\x-office-calendar-icon.png"
     },
     {
       "Identity": "C:\\Users\\User\\source\\repos\\ProyectoIdentity\\ProyectoIdentity\\wwwroot\\js\\site.js",

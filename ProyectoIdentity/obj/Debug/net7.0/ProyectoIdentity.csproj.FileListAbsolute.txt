@@ -74,3 +74,4 @@ C:\Users\User\source\repos\ProyectoIdentity\ProyectoIdentity\bin\Debug\net7.0\Mi
 C:\Users\User\source\repos\ProyectoIdentity\ProyectoIdentity\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
 C:\Users\User\source\repos\ProyectoIdentity\ProyectoIdentity\bin\Debug\net7.0\Mono.TextTemplating.dll
 C:\Users\User\source\repos\ProyectoIdentity\ProyectoIdentity\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\User\source\repos\ProyectoIdentity\ProyectoIdentity\obj\Debug\net7.0\ProyectoIdentity.sourcelink.json
