@@ -17,23 +17,27 @@ namespace ProyectoIdentity.Controllers
         }
 
         public IActionResult Index()
-        {
-            return View();
+        {			
+			return View();
         }
 
         [HttpGet]
-        public async Task<IActionResult> Registro()
+        public async Task<IActionResult> Registro(string returnurl = null)
         {
-            RegistroViewModel registroVM = new RegistroViewModel();
+			ViewData["ReturnUrl"] = returnurl;
+			RegistroViewModel registroVM = new RegistroViewModel();
 
             return View(registroVM);
         }
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Registro(RegistroViewModel rgViewModel)
+        public async Task<IActionResult> Registro(RegistroViewModel rgViewModel,string returnurl = null)
 		{
-			if(ModelState.IsValid) 
+			ViewData["ReturnUrl"] = returnurl;
+			returnurl = returnurl ?? Url.Content("~/");
+
+			if (ModelState.IsValid) 
             { 
                 var usuario = new AppUsuario 
                 { 
@@ -58,7 +62,8 @@ namespace ProyectoIdentity.Controllers
 					//Para autenticarlo.
 					await _singInManager.SignInAsync(usuario, isPersistent: false);
 
-					return RedirectToAction("Index", "Home");
+					//return RedirectToAction("Index", "Home");
+					return LocalRedirect(returnurl);
 				}
 
 				ValidarErrres(resultado);
@@ -80,23 +85,31 @@ namespace ProyectoIdentity.Controllers
 
         //Metodo mostrar formulario de acceso
         [HttpGet]
-        public IActionResult Acceso()
+        public IActionResult Acceso(string returnurl = null)
         {
+            ViewData["ReturnUrl"] = returnurl;
             return View();
         }
 
-        public async Task<IActionResult> Acceso(AccesoViewModel accViewModel)
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Acceso(AccesoViewModel accViewModel, string returnurl = null)
         {
-            if (ModelState.IsValid)
+			ViewData["ReturnUrl"] = returnurl;
+            returnurl = returnurl ?? Url.Content("~/");
+
+			if (ModelState.IsValid)
             {
               
                 var resultado = await _singInManager.PasswordSignInAsync(accViewModel.Email,accViewModel.Password,accViewModel.RememberMe,lockoutOnFailure: false);
 
                 if (resultado.Succeeded)
                 {
-                    return RedirectToAction("Index", "Home");
-                }
-                else
+					//return RedirectToAction("Index", "Home");
+					//return Redirect(returnurl);
+					return LocalRedirect(returnurl);
+				}
+				else
                 {
                     ModelState.AddModelError(String.Empty, "Accesp Invalido");
                     return View(accViewModel);

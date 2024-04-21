@@ -7,8 +7,8 @@
       "RelativeMoniker": "D:0:0:{383DB6F7-2801-406F-BE85-927B0E4D66D7}|ProyectoIdentity\\ProyectoIdentity.csproj|solutionrelative:proyectoidentity\\controllers\\cuentascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{383DB6F7-2801-406F-BE85-927B0E4D66D7}|ProyectoIdentity\\ProyectoIdentity.csproj|c:\\users\\user\\source\\repos\\proyectoidentity\\proyectoidentity\\views\\shared\\_loginregistrovistaparcial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{383DB6F7-2801-406F-BE85-927B0E4D66D7}|ProyectoIdentity\\ProyectoIdentity.csproj|solutionrelative:proyectoidentity\\views\\shared\\_loginregistrovistaparcial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{383DB6F7-2801-406F-BE85-927B0E4D66D7}|ProyectoIdentity\\ProyectoIdentity.csproj|c:\\users\\user\\source\\repos\\proyectoidentity\\proyectoidentity\\views\\cuentas\\acceso.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{383DB6F7-2801-406F-BE85-927B0E4D66D7}|ProyectoIdentity\\ProyectoIdentity.csproj|solutionrelative:proyectoidentity\\views\\cuentas\\acceso.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,14 +27,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "_LoginRegistroVistaParcial.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ProyectoIdentity\\ProyectoIdentity\\Views\\Shared\\_LoginRegistroVistaParcial.cshtml",
-              "RelativeDocumentMoniker": "ProyectoIdentity\\Views\\Shared\\_LoginRegistroVistaParcial.cshtml",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\ProyectoIdentity\\ProyectoIdentity\\Views\\Shared\\_LoginRegistroVistaParcial.cshtml",
-              "RelativeToolTip": "ProyectoIdentity\\Views\\Shared\\_LoginRegistroVistaParcial.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAIAAAA",
+              "Title": "Acceso.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ProyectoIdentity\\ProyectoIdentity\\Views\\Cuentas\\Acceso.cshtml",
+              "RelativeDocumentMoniker": "ProyectoIdentity\\Views\\Cuentas\\Acceso.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ProyectoIdentity\\ProyectoIdentity\\Views\\Cuentas\\Acceso.cshtml",
+              "RelativeToolTip": "ProyectoIdentity\\Views\\Cuentas\\Acceso.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-19T21:05:36.159Z",
+              "WhenOpened": "2024-04-21T16:22:21.054Z",
               "EditorCaption": ""
             },
             {
@@ -45,7 +45,7 @@
               "RelativeDocumentMoniker": "ProyectoIdentity\\Controllers\\CuentasController.cs",
               "ToolTip": "C:\\Users\\User\\source\\repos\\ProyectoIdentity\\ProyectoIdentity\\Controllers\\CuentasController.cs",
               "RelativeToolTip": "ProyectoIdentity\\Controllers\\CuentasController.cs",
-              "ViewState": "AQIAAE8AAAAAAAAAAADwv3QAAAAWAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAB8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-18T21:04:44.266Z",
               "EditorCaption": ""
