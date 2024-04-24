@@ -63,6 +63,12 @@ namespace ProyectoIdentity.Controllers
 
                 if(resultado.Succeeded)
                 {
+                    //Implementacion de confirmacion de email en el registro 24/24/2024
+                    var code = await _userManager.GenerateEmailConfirmationTokenAsync(usuario);
+					var urlRetorno = Url.Action("ConfirmarEmail", "Cuentas", new { userId = usuario.Id, code = code }, protocol: HttpContext.Request.Scheme);
+					await _emailSender.SendEmailAsync(rgViewModel.Email, "Confirmar su Cuenta - Proyecto Identity",
+				  "Por favor confirme su cuenta dando clic aqui: <a href=\"" + urlRetorno + "\">enlace</a>");
+
 					//Para autenticarlo.
 					await _singInManager.SignInAsync(usuario, isPersistent: false);
 
@@ -209,10 +215,29 @@ namespace ProyectoIdentity.Controllers
         }
 
 		[HttpGet]
+        [AllowAnonymous]
 		public IActionResult ConfirmacionRecuperaPassword()
 		{
 			return View();
 		}
 
+		//Metodos para la confirmacion de Email en el registro.
+		[HttpGet]
+		public async Task<IActionResult> ConfirmarEmail(string userId, string code)
+		{
+            if(userId == null || code == null)
+            {
+                return View("Error");
+            }
+
+            var usuario = await _userManager.FindByIdAsync(userId);
+            if (usuario == null)
+            {
+				return View("Error");
+			}
+
+            var resultado = await _userManager.ConfirmEmailAsync(usuario, code);
+			return View(resultado.Succeeded ? "ConfirmarEmail" : "Error");
+		}
 	}
 }
