@@ -75,3 +75,7 @@ C:\Users\User\source\repos\ProyectoIdentity\ProyectoIdentity\bin\Debug\net7.0\Mi
 C:\Users\User\source\repos\ProyectoIdentity\ProyectoIdentity\bin\Debug\net7.0\Mono.TextTemplating.dll
 C:\Users\User\source\repos\ProyectoIdentity\ProyectoIdentity\bin\Debug\net7.0\System.CodeDom.dll
 C:\Users\User\source\repos\ProyectoIdentity\ProyectoIdentity\obj\Debug\net7.0\ProyectoIdentity.sourcelink.json
+C:\Users\User\source\repos\ProyectoIdentity\ProyectoIdentity\bin\Debug\net7.0\Mailjet.Client.dll
+C:\Users\User\source\repos\ProyectoIdentity\ProyectoIdentity\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\User\source\repos\ProyectoIdentity\ProyectoIdentity\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\User\source\repos\ProyectoIdentity\ProyectoIdentity\obj\Debug\net7.0\ProyectoIdentity.MvcApplicationPartsAssemblyInfo.cs
