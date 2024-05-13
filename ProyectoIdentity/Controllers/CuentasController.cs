@@ -239,5 +239,18 @@ namespace ProyectoIdentity.Controllers
             var resultado = await _userManager.ConfirmEmailAsync(usuario, code);
 			return View(resultado.Succeeded ? "ConfirmarEmail" : "Error");
 		}
+
+        //Configuracion Acceso Externo: facebook, Google, X
+		[HttpPost]
+		[AllowAnonymous]
+        [ValidateAntiForgeryToken]
+		public IActionResult AccesoExterno(string proveedor, string returnurl = null)
+		{
+			//https://localhost:7193/Cuentas/AccesoExterno
+			var urlRedireccion = Url.Action("AccesoExternoCallback", "Cuentas", new { ReturnUrl = returnurl });
+            var propiedades = _singInManager.ConfigureExternalAuthenticationProperties(proveedor, urlRedireccion);
+            return Challenge(propiedades,proveedor);
+		}
+
 	}
 }

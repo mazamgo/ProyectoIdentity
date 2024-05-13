@@ -79,3 +79,4 @@ C:\Users\User\source\repos\ProyectoIdentity\ProyectoIdentity\bin\Debug\net7.0\Ma
 C:\Users\User\source\repos\ProyectoIdentity\ProyectoIdentity\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.UI.dll
 C:\Users\User\source\repos\ProyectoIdentity\ProyectoIdentity\bin\Debug\net7.0\Newtonsoft.Json.dll
 C:\Users\User\source\repos\ProyectoIdentity\ProyectoIdentity\obj\Debug\net7.0\ProyectoIdentity.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\User\source\repos\ProyectoIdentity\ProyectoIdentity\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.Facebook.dll
